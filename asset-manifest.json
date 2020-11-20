@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/uhray-quick-work/static/css/main.8a18c0f9.chunk.css",
+    "main.js": "/uhray-quick-work/static/js/main.ff3dbd22.chunk.js",
+    "main.js.map": "/uhray-quick-work/static/js/main.ff3dbd22.chunk.js.map",
+    "runtime-main.js": "/uhray-quick-work/static/js/runtime-main.aaaaa4f0.js",
+    "runtime-main.js.map": "/uhray-quick-work/static/js/runtime-main.aaaaa4f0.js.map",
+    "static/js/2.3109bbb7.chunk.js": "/uhray-quick-work/static/js/2.3109bbb7.chunk.js",
+    "static/js/2.3109bbb7.chunk.js.map": "/uhray-quick-work/static/js/2.3109bbb7.chunk.js.map",
+    "index.html": "/uhray-quick-work/index.html",
+    "static/css/main.8a18c0f9.chunk.css.map": "/uhray-quick-work/static/css/main.8a18c0f9.chunk.css.map",
+    "static/js/2.3109bbb7.chunk.js.LICENSE.txt": "/uhray-quick-work/static/js/2.3109bbb7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaaaa4f0.js",
+    "static/js/2.3109bbb7.chunk.js",
+    "static/css/main.8a18c0f9.chunk.css",
+    "static/js/main.ff3dbd22.chunk.js"
+  ]
+}
