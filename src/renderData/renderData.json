@@ -15,12 +15,12 @@
     "id": "3",
     "image": "./images/bike.jpg",
     "title": "Cycling Tied to Lower Body Fat Percentages",
-    "description": ""
+    "description": "Article three description"
   },
   {
     "id": "4",
     "image": "./images/mountain-house.jpg",
     "title": "Study Finds Fresh Air Makes It Easier to Breathe",
-    "description": ""
+    "description": "Article Four description"
   }
 ]
