@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "image": "./images/khumbu.jpg",
+    "title": "Dog is Still Confused No Matter What You Do",
+    "description": "Article one description"
+  },
+  {
+    "id": "2",
+    "image": "./images/downtown.jpg",
+    "title": "Downtown Looks Best When Everyone is Sleeping",
+    "description": "Article two description"
+  },
+  {
+    "id": "3",
+    "image": "./images/bike.jpg",
+    "title": "Cycling Tied to Lower Body Fat Percentages",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "image": "./images/mountain-house.jpg",
+    "title": "Study Finds Fresh Air Makes It Easier to Breathe",
+    "description": ""
+  }
+]
