@@ -5,12 +5,13 @@ const options = {
   url: 'https://newscatcher.p.rapidapi.com/v1/search_free',
   params: { q: 'ISS', media: 'True', lang: 'en' },
   headers: {
-    'x-rapidapi-key': '9691156362msh2815ce3e67997fep1470c8jsn5244af5bb496',
+    'x-rapidapi-key': process.env.REACT_APP_API_KEY,
     'x-rapidapi-host': 'newscatcher.p.rapidapi.com',
   },
 };
 
 const getArticles = () => {
+  console.log(process.env.REACT_APP_API_KEY);
   return axios.request(options);
 };
 

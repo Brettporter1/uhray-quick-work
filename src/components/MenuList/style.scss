@@ -20,7 +20,7 @@
   padding: 55px 5px 25px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  a {
+  button {
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -30,6 +30,7 @@
     margin: 0px 0px 5px;
     font-size: 0.8rem;
     font-weight: 700;
+    border: none;
   }
   &.open {
     animation: menuTransition 0.5s;
@@ -39,7 +40,7 @@
     left: -85vw;
     animation: menuTransition 0.5s reverse;
   }
-  .active {
+  button.active {
     background: rgba(255, 255, 255, 0.35);
   }
 }

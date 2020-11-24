@@ -12,23 +12,21 @@ function MenuList({ handleMenu, openMenu, props }) {
 
   for (let i = 1; i <= Math.ceil(totalArticles / articlesPerPage); i++) {
     pageNumbers.push(i);
-    console.log(pageNumbers);
   }
 
   return (
     <div className={`menu-list ${openMenu ? 'open' : 'closed'}`}>
       {pageNumbers.map((page) => (
-        <a
+        <button
           key={page}
           onClick={() => {
             handleMenu();
             changePagination(page);
           }}
-          href='!#'
           className={page === currentPage ? 'active' : null}
         >
           Page {page}
-        </a>
+        </button>
       ))}
     </div>
   );
