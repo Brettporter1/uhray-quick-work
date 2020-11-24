@@ -11,7 +11,6 @@ const options = {
 };
 
 const getArticles = () => {
-  console.log(process.env.REACT_APP_API_KEY);
   return axios.request(options);
 };
 
