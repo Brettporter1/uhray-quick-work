@@ -1,13 +1,12 @@
 import React from 'react';
-import './style.scss';
 
-function Article(props) {
-  const { image, title, description } = props.article;
+function Article({ media, title, summary }) {
   return (
     <div className='article-container'>
-      <img src={image} alt={title} />
-      <h4>{title}</h4>
-      <p>{description}</p>
+      <img src={media} alt={title} />
+      <h3>{title}</h3>
+      <p>{summary}</p>
+      <hr />
     </div>
   );
 }

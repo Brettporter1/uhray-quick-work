@@ -3,7 +3,7 @@ import './style.scss';
 import MenuList from '../MenuList';
 import MenuButton from '../MenuList/MenuButton';
 
-function Header() {
+function Header(props) {
   const [openMenu, setOpenMenu] = useState(false);
 
   const handleMenu = () => {
@@ -11,7 +11,7 @@ function Header() {
   };
   return (
     <Fragment>
-      <MenuList openMenu={openMenu} handleMenu={handleMenu} />
+      <MenuList openMenu={openMenu} handleMenu={handleMenu} props={props} />
       <MenuButton openMenu={openMenu} handleMenu={handleMenu} />
       <header>
         <h3>Home</h3>
